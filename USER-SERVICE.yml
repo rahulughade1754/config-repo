@@ -39,4 +39,5 @@ logging:
   level:
     root: INFO
     org.springframework.web: DEBUG
-
+app:
+  message: "Hello from Config Server - v1"
