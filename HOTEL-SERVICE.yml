@@ -31,3 +31,10 @@ eureka:
     lease-renewal-interval-in-seconds: 10
     lease-expiration-duration-in-seconds: 30
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+app:
+  message: "Hello from Config Server - v2"
